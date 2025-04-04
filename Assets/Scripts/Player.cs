@@ -12,6 +12,16 @@ public class Player : MonoBehaviour
     {
         
     }
+    //0403���� Accelerater,brake
+    public void Accelerate(float force)
+    {
+        playerRigid.AddForce(transform.right * force, ForceMode2D.Force);
+    }
+    public void Brake(float intensity)
+    {
+        playerRigid.linearVelocity *= intensity;
+    }
+
 
     public void Move(Vector2 vector)
     {
