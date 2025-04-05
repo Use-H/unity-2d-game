@@ -14,5 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Editor/Scenes/CarCrushScene.unity
     guid: e98fdf14786c6ba48b9b38df4fa0f823
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 65ebc16b6d3d8624ab465feb586c9177, type: 2}
   m_UseUCBPForAssetBundles: 0
